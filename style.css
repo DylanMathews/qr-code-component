@@ -12,6 +12,8 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+    font-family: "Outfit";
+    text-align: center;
 }
 
 main.content {
@@ -37,7 +39,19 @@ main.content {
     display: flex;
     justify-content: center;
 }
+
 .qr-code > img {
     width: 100%;
     border-radius: 10px;
+}
+
+.qr-card > h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-card > p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
 }
