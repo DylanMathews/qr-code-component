@@ -53,10 +53,13 @@ main.content {
 .qr-card > h1 {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
+    padding: 0 0.125rem;
 }
 
 .qr-card > p {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
 }
