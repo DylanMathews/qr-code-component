@@ -33,7 +33,7 @@ main.content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    max-width: 300px;
     background-color: hsl(0, 0%, 100%);
     padding: 1rem;
     border-radius: 10px;
@@ -50,16 +50,20 @@ main.content {
     border-radius: 10px;
 }
 
+.qr-card > h1,
+.qr-card > p {
+    padding: 0 1rem;
+}
+
 .qr-card > h1 {
     font-weight: 700;
+    font-size: 1.5rem;
     color: hsl(218, 44%, 22%);
-    padding: 0 0.125rem;
 }
 
 .qr-card > p {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 1rem;
-    padding: 0 2rem;
 }
