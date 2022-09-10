@@ -19,13 +19,18 @@ main.content {
     flex: 1;
     justify-content: center;
     align-items: center;
+    background-color: hsl(212, 45%, 89%);
 }
+
 .qr-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .qr-code {
@@ -34,4 +39,5 @@ main.content {
 }
 .qr-code > img {
     width: 75%;
+    border-radius: 10px;
 }
