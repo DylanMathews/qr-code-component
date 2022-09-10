@@ -27,7 +27,7 @@ main.content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 350px;
     background-color: hsl(0, 0%, 100%);
     padding: 1rem;
     border-radius: 10px;
@@ -38,6 +38,6 @@ main.content {
     justify-content: center;
 }
 .qr-code > img {
-    width: 75%;
+    width: 100%;
     border-radius: 10px;
 }
