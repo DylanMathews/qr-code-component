@@ -7,6 +7,25 @@
     color: hsl(228, 45%, 44%); 
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qr-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
 .qr-code {
-    background-image: url("./images/image-qr-code.png")
+    display: flex;
+    justify-content: center;
+}
+.qr-code > img {
+    width: 75%;
 }
